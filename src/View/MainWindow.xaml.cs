@@ -23,6 +23,9 @@ namespace View
         public MainWindow()
         {
             InitializeComponent();
+
+            var items = new List<string> { "a", "b", "c", "d", "e" };
+            boardView.ItemsSource = items;
         }
     }
 }
